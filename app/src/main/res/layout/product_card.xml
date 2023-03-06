@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    android:layout_margin="2dp"
+    android:padding="2dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/product_main_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#977777"
+            app:civ_border_width="1dp" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_main_image"
+            android:text="This is Demo Name"
+            android:textSize="15sp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/product_rent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_name"
+            android:text="This is Rent"
+            android:textSize="15sp"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/product_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/con_id"
+            android:text="Ahmedabad"
+            android:layout_below="@id/product_rent"
+            />
+
+        <ImageView
+            android:id="@+id/con_id"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/product_rent"
+            android:src="@drawable/location_icon"
+            android:tint="#8BC34A"
+            tools:ignore="UseAppTint" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Bottomnavigationview" parent="Theme.Design.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#F38497</item>
+        <item name="colorPrimaryVariant">#FFEB3B</item>
+        <item name="colorOnPrimary">#F38497</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#F10E0E</item>
+        <!-- Secondary brand color. -->
+<!--        <item name="windowActionBar">false</item>-->
+        <item name="colorSecondary">#FFEB3B</item>
+        <item name="colorSecondaryVariant">#FFEB3B</item>
+        <item name="colorOnSecondary">#FFEB3B</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Status bar color. -->
+<!--        <item name="android:statusBarColor" tools:targetApi="l">#F38497</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CardViewTheme">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="android:textColor">#000000</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+
+</resources>

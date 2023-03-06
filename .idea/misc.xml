@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1825" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable/bgcolor.xml" value="0.1345" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable/bgcolor2.xml" value="0.1345" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable/btn.xml" value="0.1345" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable/btn1.xml" value="0.1345" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.15069444444444444" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.15069444444444444" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1345" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.15069444444444444" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/activity_ads.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/activity_edit_profile.xml" value="0.1" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/activity_home.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/category_cardview.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/fragment_chats.xml" value="0.14207650273224043" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/fragment_home.xml" value="0.14207650273224043" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/fragment_myads.xml" value="0.22" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/fragment_profile.xml" value="0.14207650273224043" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/fragment_sell.xml" value="0.16" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/fragment_sign_up.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/layout/singlerow.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/BottomNavigationView/app/src/main/res/menu/menufile.xml" value="0.14" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/drawable-v24/blue_border_rounded_cornwe.xml" value="0.1545" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/drawable-v24/blue_fill__rounded_color.xml" value="0.1545" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/drawable-v24/cursor_color.xml" value="0.1545" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/drawable-v24/dot_selector.xml" value="0.1625" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/drawable-v24/ic_baseline_person_pin_24.xml" value="0.117" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/drawable-v24/ic_rating_star_24.xml" value="0.1625" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/drawable/btn.xml" value="0.1545" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/drawable/edit_location.xml" value="0.129" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1545" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_add_product.xml" value="0.25" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_edit_profile.xml" value="0.14" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_forget_password.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_login.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_not_found_error.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_product_detail_page.xml" value="0.13831967213114754" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_product_page.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_sign_up.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_splash.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/activity_splash_screen.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/address_card.xml" value="0.22" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/category_card.xml" value="0.33" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/chating_layout_file.xml" value="0.15" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_chats.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_contact_us.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_deposite.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_home.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_login.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_manage_address.xml" value="0.21" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_my_ads.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_myads.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_product_desc.xml" value="0.25" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_profile.xml" value="0.14" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_read_more.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_sell.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_sign_in.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/fragment_sign_up.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/location_layout.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/not_found_error.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/product_card.xml" value="0.22" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/product_page_1layout.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/product_page_2layout.xml" value="0.16" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/product_page_3layout.xml" value="0.25" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/product_page_firstlayout.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/product_page_secondlayout.xml" value="1.0348837209302326" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/layout/singlerow.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/menu/menu.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/menu/menufile.xml" value="0.153125" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/menu/search_cart_icon.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Bottomnavigationview/app/src/main/res/menu/search_products.xml" value="0.153125" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

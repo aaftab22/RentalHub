@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Rental Hub</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Title_ID">title</string>
+    <string name="title_of_sell_page">Choose What You Want To Offer</string>
+    <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="returns_refund"><![CDATA[Returns & Refund]]></string>
+    <string name="offers_promotions"><![CDATA[Offers & Promotions]]></string>
+
+    <array name="fuel_type_entries">
+        <item>Petrol</item>
+        <item>Diesel</item>
+        <item>Electric</item>
+        <item><![CDATA[CNG & Hybrids]]></item>
+        <item>LPG</item>
+    </array>
+
+    <array name="no_of_owner_entries">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>4+</item>
+    </array>
+
+</resources>
