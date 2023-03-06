@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".product_desc_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/line1_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iPhone 12 Pro (256GB)-Box with cable"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:id="@+id/line2_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100% Condition"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/line3_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bettray Health 95%"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/line4_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Negotiation for rent is available"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+</LinearLayout>

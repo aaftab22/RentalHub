@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUpActivity">
+
+    <LinearLayout
+        android:id="@+id/signUp1_layout_ID"
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/blue_bg">
+        <!--        <FrameLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="273dp"-->
+        <!--            android:background="@drawable/blue_bg">-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rental Hub"
+            android:textSize="25sp"
+
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_gravity="center" />
+
+        <!--        </FrameLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/signUp1_layout_ID"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:id="@+id/signup_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:gravity="center"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/signUp_name_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter name"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/signUp_email_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:textColor="#8DA9C4"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/signUp_password_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/signUp_confirmPassword_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:id="@+id/signUp_submitBtn_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/blue_fill__rounded_color"
+            android:padding="10dp"
+            android:text="Submit"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/already_have_account_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/skip_to_main_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip to App"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            />
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/signUp1_layout_ID"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:background="@drawable/bgcolor"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical"/>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/signUp2_layout_ID"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="350dp"-->
+<!--        android:layout_below="@id/signUp1_layout_ID"-->
+<!--        android:gravity="center">-->
+<!--        &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/title"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:gravity="center"-->
+<!--            android:text="Sign Up"-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/signUp_name_ID"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="50dp"-->
+<!--            android:layout_below="@id/title"-->
+<!--            android:hint="Enter Name : "-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/signUp_email_ID"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="50dp"-->
+<!--            android:layout_below="@id/signUp_name_ID"-->
+<!--            android:hint="Enter Email ID : "-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/signUp_password_ID"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/signUp_email_ID"-->
+<!--            android:layout_marginHorizontal="50dp"-->
+<!--            android:hint="Enter Password here : "-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/signUp_confirmPassword_ID"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/signUp_password_ID"-->
+<!--            android:layout_marginHorizontal="50dp"-->
+<!--            android:hint="Retype Password here : "-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/signUp_submitBtn_ID"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/signUp_confirmPassword_ID"-->
+
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:text="Submit" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/already_have_account_ID"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="18sp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:text="Already have an account?"-->
+<!--            android:textColor="@color/purple_500"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_below="@id/signUp2_layout_ID"-->
+<!--        android:background="@drawable/bgcolor2"-->
+<!--        />-->
+
+</RelativeLayout>
