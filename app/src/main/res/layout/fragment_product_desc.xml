@@ -8,7 +8,6 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/line1_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="iPhone 12 Pro (256GB)-Box with cable"
@@ -18,7 +17,6 @@
 
 
     <TextView
-        android:id="@+id/line2_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="100% Condition"
@@ -26,7 +24,6 @@
         android:textSize="20sp"
         />
     <TextView
-        android:id="@+id/line3_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bettray Health 95%"
@@ -34,7 +31,6 @@
         android:textSize="20sp"
         />
     <TextView
-        android:id="@+id/line4_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Negotiation for rent is available"

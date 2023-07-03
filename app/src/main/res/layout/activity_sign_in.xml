@@ -66,7 +66,6 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/rl2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/blue_border_rounded_cornwe"
@@ -95,7 +94,6 @@
                 />
 
             <ImageView
-                android:id="@+id/password_hide_icon"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_centerVertical="true"
@@ -125,7 +123,6 @@
             android:gravity="center" />
 
         <TextView
-            android:id="@+id/or_id"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="or"
@@ -135,7 +132,6 @@
 
 
     <LinearLayout
-        android:id="@+id/ly3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -144,21 +140,18 @@
         android:layout_below="@+id/ly2">
 
         <ImageView
-            android:id="@+id/google_signIn_ID"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/google_logo"
             android:layout_margin="8dp"/>
 
         <ImageView
-            android:id="@+id/facebook_signIn_ID"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:src="@drawable/fb"
             android:layout_margin="8dp" />
 
         <ImageView
-            android:id="@+id/insta_signIn_ID"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/instagram"

@@ -11,7 +11,6 @@
     >
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
-        android:id="@+id/callUs_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
@@ -40,7 +39,6 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/emailUs_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
