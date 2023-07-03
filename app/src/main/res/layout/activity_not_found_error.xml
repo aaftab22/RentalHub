@@ -8,7 +8,6 @@
     tools:context=".not_found_error">
 
     <TextView
-        android:id="@+id/try_after_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Please try again after some time"

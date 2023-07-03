@@ -83,7 +83,6 @@
 
 
         <TextView
-            android:id="@+id/product_rating_ID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -104,7 +103,6 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/total_ratings_miniview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -137,7 +135,6 @@
         app:layout_constraintStart_toEndOf="@+id/product_price" />
 
     <View
-        android:id="@+id/divider"
         android:layout_width="0dp"
         android:layout_height="2dp"
         android:background="#CC000000"

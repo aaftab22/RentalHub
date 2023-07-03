@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         >
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/brand_name_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Name and Brand"
@@ -36,7 +35,6 @@
         android:tooltipText="Select Fuel Type"
         />
     <RadioGroup
-        android:id="@+id/transmission_type_ID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="10dp">
@@ -47,14 +45,12 @@
         android:textSize="18dp"
         />
         <RadioButton
-            android:id="@+id/automatic_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Automatic"
             />
 
         <RadioButton
-            android:id="@+id/manual_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Manual"
@@ -67,7 +63,6 @@
         android:layout_height="wrap_content"
         >
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/km_driven_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="KM Driven"
@@ -88,7 +83,6 @@
         android:layout_height="wrap_content"
         >
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/ad_title_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Ad Title*"
@@ -100,7 +94,6 @@
         android:layout_height="wrap_content"
         >
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/ad_description_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Describe What are you Selling*"

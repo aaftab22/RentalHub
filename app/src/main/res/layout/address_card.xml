@@ -2,7 +2,6 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/addressCard_layout_ID"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="20dp"
@@ -45,7 +44,6 @@
         app:layout_constraintTop_toBottomOf="@+id/address_line_ID" />
 
     <TextView
-        android:id="@+id/mobile_no_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -55,7 +53,6 @@
         app:layout_constraintTop_toBottomOf="@+id/pinCode_ID" />
 
     <ImageView
-        android:id="@+id/address_edit_sign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/edit_location"
@@ -64,7 +61,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/address_delete_sign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
