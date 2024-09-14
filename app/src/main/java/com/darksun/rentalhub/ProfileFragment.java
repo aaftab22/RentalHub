@@ -14,6 +14,8 @@ import com.darksun.rentalhub.registration.signUpActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.Objects;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link ProfileFragment#newInstance} factory method to
@@ -84,42 +86,20 @@ public class ProfileFragment extends Fragment {
             loginLayout.setVisibility(View.GONE);
         }
 
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(view.getContext(), editProfile.class));
-            }
+        imageView.setOnClickListener(v -> startActivity(new Intent(view.getContext(), editProfile.class)));
+
+        loginLayout.setOnClickListener(v -> {
+            Intent loginIntent = new Intent(getActivity(), signUpActivity.class);
+            startActivity(loginIntent);
+
+            requireActivity().finish();
         });
 
-        loginLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent loginIntent = new Intent(getActivity(), signUpActivity.class);
-                startActivity(loginIntent);
-                getActivity().finish();
-            }
-        });
+        readMoreLayout.setOnClickListener(v -> getFragmentManager().beginTransaction().replace(R.id.framelayout_id,new ReadMoreFragment()).commit());
 
-        readMoreLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getFragmentManager().beginTransaction().replace(R.id.framelayout_id,new ReadMoreFragment()).commit();
-            }
-        });
+        contactUsLayout.setOnClickListener(v -> getFragmentManager().beginTransaction().replace(R.id.framelayout_id,new ContactUsFragment()).commit());
 
-        contactUsLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getFragmentManager().beginTransaction().replace(R.id.framelayout_id,new ContactUsFragment()).commit();
-            }
-        });
-
-        manageAddressLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getFragmentManager().beginTransaction().replace(R.id.framelayout_id,new ManageAddress()).commit();
-            }
-        });
+        manageAddressLayout.setOnClickListener(v -> getFragmentManager().beginTransaction().replace(R.id.framelayout_id,new ManageAddress()).commit());
 
         return view;
     }
