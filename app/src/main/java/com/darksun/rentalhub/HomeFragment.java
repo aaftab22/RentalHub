@@ -25,10 +25,6 @@ public class HomeFragment extends Fragment {
     com.darksun.rentalhub.Adapters.product_adapter product_adapter;
     com.darksun.rentalhub.Adapters.categoryAdapter categoryAdapter;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -54,11 +50,6 @@ public class HomeFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override

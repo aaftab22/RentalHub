@@ -22,6 +22,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class signUpActivity extends AppCompatActivity {
     EditText fullname, email , password, confirmPassword;
@@ -45,51 +46,35 @@ public class signUpActivity extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseFirestore = FirebaseFirestore.getInstance();
 
-        skip_to_main.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(signUpActivity.this, MainActivity.class));
-            }
-        });
+        skip_to_main.setOnClickListener(v -> startActivity(new Intent(signUpActivity.this, MainActivity.class)));
 
 
-        signupBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                firebaseAuth.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString())
-                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                            @Override
-                            public void onComplete(@NonNull Task<AuthResult> task) {
-                                if (task.isSuccessful())
-                                {
-                                    Map<Object,String> userdata = new HashMap<>();
-                                    userdata.put("fullName",fullname.getText().toString());
-                                    firebaseFirestore.collection("USERS")
-                                            .add(userdata)
-                                            .addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
-                                                @Override
-                                                public void onComplete(@NonNull Task<DocumentReference> task) {
-                                                    if (task.isSuccessful())
-                                                    {
-                                                        Intent mainIntent = new Intent(signUpActivity.this,MainActivity.class);
-                                                        startActivity(mainIntent);
-                                                        finish();
-                                                    }else {
-                                                        String err = task.getException().getMessage();
-                                                        Toast.makeText(signUpActivity.this, err, Toast.LENGTH_SHORT).show();
-                                                    }
-                                                }
-                                            });
-                                }
-                                else
-                                {
-                                    String err = task.getException().getMessage();
-                                    Toast.makeText(signUpActivity.this, err, Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        });
-            }
-        });
+        signupBtn.setOnClickListener(v -> firebaseAuth.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString())
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful())
+                    {
+                        Map<Object,String> userdata = new HashMap<>();
+                        userdata.put("fullName",fullname.getText().toString());
+                        firebaseFirestore.collection("USERS")
+                                .add(userdata)
+                                .addOnCompleteListener(task1 -> {
+                                    if (task1.isSuccessful())
+                                    {
+                                        Intent mainIntent = new Intent(signUpActivity.this,MainActivity.class);
+                                        startActivity(mainIntent);
+                                        finish();
+                                    }else {
+                                        String err = Objects.requireNonNull(task1.getException()).getMessage();
+                                        Toast.makeText(signUpActivity.this, err, Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                    }
+                    else
+                    {
+                        String err = Objects.requireNonNull(task.getException()).getMessage();
+                        Toast.makeText(signUpActivity.this, err, Toast.LENGTH_SHORT).show();
+                    }
+                }));
         alreadyHaveAnAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
