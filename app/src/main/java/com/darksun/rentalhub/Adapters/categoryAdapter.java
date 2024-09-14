@@ -18,12 +18,7 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 public class categoryAdapter extends FirebaseRecyclerAdapter<categoryModel,categoryAdapter.myviewHolder> {
-    /**
-     * Initialize a {@link RecyclerView.Adapter} that listens to a Firebase query. See
-     * {@link FirebaseRecyclerOptions} for configuration options.
-     *
-     * @param options
-     */
+
     public categoryAdapter(@NonNull FirebaseRecyclerOptions<categoryModel> options) {
         super(options);
     }
@@ -32,12 +27,7 @@ public class categoryAdapter extends FirebaseRecyclerAdapter<categoryModel,categ
     protected void onBindViewHolder(@NonNull myviewHolder holder, int position, @NonNull categoryModel model) {
         holder.categoryName.setText(model.getCategory_name());
         Glide.with(holder.circleImageView.getContext()).load(model.getCategory_Image_ID()).into(holder.circleImageView);
-        holder.circleImageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                v.getContext().startActivity(new Intent(v.getContext(), not_found_error.class));
-            }
-        });
+        holder.circleImageView.setOnClickListener(v -> v.getContext().startActivity(new Intent(v.getContext(), not_found_error.class)));
     }
 
     @NonNull
@@ -47,7 +37,7 @@ public class categoryAdapter extends FirebaseRecyclerAdapter<categoryModel,categ
         return new myviewHolder(view);
     }
 
-    class myviewHolder extends RecyclerView.ViewHolder {
+    static class myviewHolder extends RecyclerView.ViewHolder {
         ImageView circleImageView; //chnage
         TextView categoryName;
         public myviewHolder(@NonNull View itemView) {
