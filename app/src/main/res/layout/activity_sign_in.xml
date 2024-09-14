@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/Theme.AppCompat.Light"
-    tools:context=".signInActivity">
+    tools:context=".registration.signInActivity">
 
     <LinearLayout
         android:id="@+id/ly1"
