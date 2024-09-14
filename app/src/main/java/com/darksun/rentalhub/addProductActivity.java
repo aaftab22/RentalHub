@@ -22,21 +22,18 @@ public class addProductActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_product);
         nextbtn = findViewById(R.id.next_btn_ID);
-         nextbtn.setOnClickListener(new View.OnClickListener() {
-             @Override
-             public void onClick(View v) {
-                 Toast.makeText(addProductActivity.this, "Your product is under varification", Toast.LENGTH_SHORT).show();
-                 startActivity(new Intent(addProductActivity.this,MainActivity.class));
-             }
+         nextbtn.setOnClickListener(v -> {
+             Toast.makeText(addProductActivity.this, "Your product is under varification", Toast.LENGTH_SHORT).show();
+             startActivity(new Intent(addProductActivity.this,MainActivity.class));
          });
         
 
-        ArrayList<String> years = new ArrayList<String>();
+        ArrayList<String> years = new ArrayList<>();
         int thisYear = Calendar.getInstance().get(Calendar.YEAR);
         for (int i = 1950; i <= thisYear; i++) {
             years.add(Integer.toString(i));
         }
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, years);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, years);
         Spinner spinYear = findViewById(R.id.year_spinner_ID);
         spinYear.setAdapter(adapter);
     }

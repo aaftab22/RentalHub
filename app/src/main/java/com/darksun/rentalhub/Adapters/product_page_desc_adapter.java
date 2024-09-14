@@ -9,7 +9,7 @@ import com.darksun.rentalhub.depositeFragment;
 import com.darksun.rentalhub.product_desc_fragment;
 
 public class product_page_desc_adapter extends FragmentPagerAdapter {
-    private int totalTabs;
+    private final int totalTabs;
     public product_page_desc_adapter(@NonNull FragmentManager fm,int totalTabs) {
         super(fm);
         this.totalTabs = totalTabs;
@@ -20,11 +20,9 @@ public class product_page_desc_adapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                product_desc_fragment product_description_fragment = new product_desc_fragment();
-                return product_description_fragment;
+                return new product_desc_fragment();
             case 1:
-                depositeFragment depositeFragment = new depositeFragment();
-                return depositeFragment;
+                return new depositeFragment();
             default:
                 return null;
         }

@@ -17,6 +17,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.Objects;
+
 public class forgetPasswordActivity extends AppCompatActivity {
     TextView forgetEmail;
     Button resetPasswordButton;
@@ -50,37 +52,22 @@ public class forgetPasswordActivity extends AppCompatActivity {
             }
         });
 
-        resetPasswordButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                auth.sendPasswordResetEmail(forgetEmail.getText().toString())
-                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-                            @Override
-                            public void onComplete(@NonNull Task<Void> task) {
-                                if (task.isSuccessful())
-                                {
-                                    confirmMsgTV.setVisibility(0);
-                                }
-                                else
-                                {
-                                    String err = task.getException().getMessage();
-                                    Toast.makeText(forgetPasswordActivity.this, err, Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        });
-            }
-        });
+        resetPasswordButton.setOnClickListener(v -> auth.sendPasswordResetEmail(forgetEmail.getText().toString())
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful())
+                    {
+                        confirmMsgTV.setVisibility(View.VISIBLE);
+                    }
+                    else
+                    {
+                        String err = Objects.requireNonNull(task.getException()).getMessage();
+                        Toast.makeText(forgetPasswordActivity.this, err, Toast.LENGTH_SHORT).show();
+                    }
+                }));
 
     }
     private void checkinputs()
     {
-        if(TextUtils.isEmpty(forgetEmail.getText().toString()))
-        {
-            resetPasswordButton.setEnabled(false);
-        }
-        else
-        {
-            resetPasswordButton.setEnabled(true);
-        }
+        resetPasswordButton.setEnabled(!TextUtils.isEmpty(forgetEmail.getText().toString()));
     }
 }

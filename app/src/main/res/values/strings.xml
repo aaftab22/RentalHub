@@ -5,6 +5,10 @@
     <string name="title_of_sell_page">Choose What You Want To Offer</string>
     <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
     <string name="returns_refund"><![CDATA[Returns & Refund]]></string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="email">Email</string>
+    <string name="reset_email_sent">Reset Email send to above email id please check it out</string>
+    <string name="reset_password">Reset Password</string>
 
     <array name="fuel_type_entries">
         <item>Petrol</item>

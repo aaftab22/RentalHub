@@ -10,7 +10,7 @@ import androidx.viewpager.widget.PagerAdapter;
 import java.util.List;
 
 public class product_page_image_adapter extends PagerAdapter {
-    private List<Integer> Product_ImagesList;
+    private final List<Integer> Product_ImagesList;
 
     public product_page_image_adapter(List<Integer> product_ImagesList) {
         Product_ImagesList = product_ImagesList;

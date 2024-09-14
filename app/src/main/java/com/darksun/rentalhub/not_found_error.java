@@ -15,12 +15,7 @@ public class not_found_error extends AppCompatActivity {
         setContentView(R.layout.activity_not_found_error);
 
         gobackbtn = findViewById(R.id.go_back_btn_ID);
-        gobackbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(not_found_error.this,MainActivity.class));
-            }
-        });
+        gobackbtn.setOnClickListener(v -> startActivity(new Intent(not_found_error.this,MainActivity.class)));
 
     }
 }

@@ -15,13 +15,10 @@ public class editProfile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile);
         button = findViewById(R.id.edit_pro_submit_btn);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(editProfile.this, "Data submitted successfully", Toast.LENGTH_SHORT).show();
+        button.setOnClickListener(v -> {
+            Toast.makeText(editProfile.this, "Data submitted successfully", Toast.LENGTH_SHORT).show();
 
-                startActivity(new Intent(editProfile.this,MainActivity.class));
-            }
+            startActivity(new Intent(editProfile.this,MainActivity.class));
         });
     }
 }
