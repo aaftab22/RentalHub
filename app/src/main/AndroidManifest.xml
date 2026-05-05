@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.rentalhub">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
 
     <application
         android:allowBackup="true"
@@ -13,27 +14,28 @@
         android:roundIcon="@drawable/rental_hub_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
+
         <activity
-            android:name="com.example.rentalhub.not_found_error"
+            android:name="com.darksun.rentalhub.not_found_error"
             android:exported="false" />
         <activity
-            android:name="com.example.rentalhub.forgetPasswordActivity"
+            android:name="com.darksun.rentalhub.registration.forgetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.rentalhub.addProductActivity"
+            android:name="com.darksun.rentalhub.addProductActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.rentalhub.productPage_Activity"
+            android:name="com.darksun.rentalhub.productPage_Activity"
             android:exported="false" />
         <activity
-            android:name="com.example.rentalhub.signInActivity"
+            android:name="com.darksun.rentalhub.registration.signInActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.rentalhub.signUpActivity"
+            android:name="com.darksun.rentalhub.registration.signUpActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light" />
         <activity
-            android:name="com.example.rentalhub.SplashActivity"
+            android:name="com.darksun.rentalhub.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,10 +44,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.rentalhub.editProfile"
+            android:name="com.darksun.rentalhub.editProfile"
             android:exported="false" />
         <activity
-            android:name="com.example.rentalhub.MainActivity"
+            android:name="com.darksun.rentalhub.MainActivity"
             android:exported="false" />
     </application>
 
